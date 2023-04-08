@@ -1,0 +1,60 @@
+div {
+	margin-bottom: 10px;
+}
+html {
+	background-image: url("stinky.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+form {
+	width: 35%;
+	margin: auto;
+}
+h1 {
+	font-size: 50px;
+	color: white;
+	text-shadow: 5px 5px #000000;
+}
+p {
+	font-size: 35px;
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+}
+label {
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+	padding: 0px;
+	float: left;
+	width: 50%;
+}
+
+legend{
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+	padding: 0px;
+}
+textarea {
+	height: 50px;
+	width: 100%;
+}
+input, #dropdown {
+	padding-top: 10px;
+	font-size: 15px;	
+}
+fieldset {
+	width: auto;
+	margin: auto;
+}
+
+#comment-label {
+	margin: 0 0 10px 0;
+}
+button {
+	height: 25px;
+	font-weight: bold;
+}
+#name, #email, #number, #dropdown {
+	width: 200px;
+}

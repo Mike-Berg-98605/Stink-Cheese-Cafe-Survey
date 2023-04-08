@@ -1,0 +1,54 @@
+<DOCTYPE! html>
+<header>
+  <link rel="stylesheet" href="styles.css">
+  <title>The Stinky Cheese Cafe Survey</title> 
+</header>
+<html>
+<form>
+<h1 id="title">The Stinky Cheese Cafe Survey</h1>
+<hr>
+<p>Please fill out this short form to help us better anticipate
+your early morning munching needs</p>
+<hr>
+ <div>
+  <label for="name" id="name-label">Name: </label><input id="name" type="text" placeholder="You Got A Name?" required />
+ </div>
+ <div>
+  <label for="email" id="email-label">Email: </label><input id="email" type="email" placeholder="What About an Email?" required />
+ </div>
+ <div>
+   <label for="number" id="number-label">Guests: </label><input id="number" type="number" placeholder="Please Bring Guests" min=0 max=10 required />
+ </div>
+ <div>
+ <label for="dropdown" id="dropdown-label">Fav Breakfast Food: </label>
+  <select id="dropdown">
+    <option></option>
+    <option>bacon</option>
+    <option>eggs</option>
+	<option>toast and jam</option>
+	<option>bowl of milk</option>
+   </select>
+ </div>
+
+<div>
+<fieldset>
+<legend id="service-label">Morning Grumpiness?</legend>
+	
+<div><label> <span><input name="user-recommend" value="Grumpy" type="radio" /></span>Grumpy</label></div>
+<div><label> <input name="user-recommend" value="Mehhhh" type="radio"/>Mehhhh</label></div>
+<div><label> <input name="user-recommend" value="Aight" type="radio"/>Aight</label></div>
+<div><label> <input name="user-recommend" value="Coffee Please" type="radio"/>Coffee Please</label></div>
+</fieldset>
+</div>   
+
+<p id="comment-label">Comments</p>
+	<div>
+		<textarea id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+	</div>
+	<div>
+          <button type="submit" id="submit" class="submit-button">
+            Click To Submit
+          </button>
+	</div>
+</form>
+</html>
